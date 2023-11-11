@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fontgow';
+    src: url('fonts/GODOFWAR.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: url(imagens/plano\ de\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'fontgow';
+}
+.título{
+    height: 60px;
+}
+.botaojogo1{
+    margin-top: 140px;
+    margin-left: 30px;
+    height: 100px;
+    width: 175px;
+    right: 120px;
+}
+.botaojogo2{
+    margin-top: 140px;
+    margin-left: 30px;
+    height: 100px;
+    width: 175px;
+    right: 120px;
+}
+.botaojogo1:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.botaojogo2{
+    margin-top: -80px;
+    height: 85px;
+    width: 185px;
+    right: 120px;
+    margin-left: 250px
+}
+.botaojogo3{
+    margin-top: -90px;
+    height: 85px;
+    width: 185px;
+    right: 120px;
+    margin-left: 490px
+}
+.botaojogo4{
+    margin-top: -85px;
+    height: 85px;
+    width: 185px;
+    right: 120px;
+    margin-left: 670px
+}
+.botaojogo2:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.botaojogo3:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.botaojogo4:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.texto{
+    margin-top: 150px;
+    width: 290px;
+    margin-left: 450px;
+    color: white;
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fontgow';
+    src: url('fonts/godofwar.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: silver
+}
+
+header {
+    background-color: #cf2414dc;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    height: 109px;
+}
+
+header > h1 {
+    font-family: 'fontgow';
+    text-align: center;
+    color: silver;
+    padding: 5px;
+}
+
+nav > a{
+   padding: 20px;
+   text-decoration: none;
+   color: white;
+   margin-left: 10px;
+   border: 0px;
+}
+
+nav > a:hover{
+    background-color: red;
+    border-style: solid;
+    border-radius: 5px;
+    
+}
+
+article > h1{
+    text-align: center;
+    margin: 5px;
+
+}
+article > p{
+    padding: 20px;
+    text-indent: 15px;
+    font-size: 20px;
+}
+ p > a{
+    text-decoration: none;
+    color: red;
+}
+p > a:hover{
+    color: rgb(255, 128, 128);
+}
+main{
+    margin: auto;
+    width: 950px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+article > #imagem01{
+    margin: auto;
+    margin-left: 175px;
+}

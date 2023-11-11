@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonthp';
+    src: url('fonts/HARRYP__.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgba(80, 80, 80, 0.726);
+}
+header {
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'fonthp';
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    margin: 0;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 35px;
+}
+a:hover{
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+}
+
+main {
+    background-color: #000000;
+    margin: auto;
+    min-width: 300px;
+    max-width: 90%;
+    margin-top: 185px;
+    border-radius: 5px;
+    box-shadow: rgb(0, 0, 0) 4px 7px 20px 0px;
+    padding: 1px 0px 3px;
+
+}
+article > h1{
+    font-family: 'fonthp';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.part1 {
+    color: white;
+    margin-left: 490px;
+}
+
+.part2 {
+    color: white;
+    font-family: 'fonthp';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+h2 {
+    color: white;
+}
+
+.Título {
+    display: flex;
+
+}
+
+.sobre {
+    display: flex;
+}
+
+.imagem {
+    margin-left: 60px;
+}
+
+#sinopse {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.nomefilme {
+    font-family: 'fonthp';
+    font-size: 40px;
+}
+
+.elenco {
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 320px;
+    width: 50%;
+}
+.elenco > h2{
+    font-family: 'fonthp';
+    font-size: 25px;
+}
+#sobre_ator{
+    background-image: url();
+}
+.images {
+    display: flex;
+}
+
+.image01 {
+    margin-left: 30px;
+}
+
+.image01:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+
+.nome01 {
+    margin-left: 5px;
+    color: white;
+}
+
+.person01 {
+    color: white;
+    font-family: 'fonthp';
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.sobre02 {
+    display: flex;
+}

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonthp';
+    src: url('fonts/HARRYP__.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    
+    background-image: linear-gradient(#0D202E, #B1C9E1, #5A91B8)
+}
+
+.part1 {
+    color: white;
+    text-align: center;
+    margin-left: 490px;
+}
+
+.part2 {
+    text-align: center;
+    color: white;
+    font-family: 'fonthp';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.Título {
+    
+    display: flex;
+}
+
+.sobre {
+    display: flex;
+    
+}
+
+.sinopse {
+    color: white;
+    background-color: rgb(58, 57, 57);
+    width: 650px;
+    border-radius: 20px;
+   
+}
+
+.nomefilme {
+    font-family: 'fonthp';
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}

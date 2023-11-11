@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonthp';
+    src: url('fonts/HARRYP__.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'fonthp';
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header > h1{
+    text-align: center;
+    font-size: 40px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    margin: 0;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    font-size: 35px;
+}
+a:hover{
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+}
+main{
+    background-color: #000000;
+    margin: auto;
+    min-width: 300px;
+    max-width: 90%;
+    margin-top: 185px;
+    border-radius: 5px;
+    box-shadow: black 4px 7px 20px 0px;
+    padding: 1px 0px 3px;  
+
+}
+::-webkit-scrollbar-track {
+    background-color: #535353;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background: #222222;
+}
+
+body {
+    background-color: rgb(131, 129, 129);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1 {
+    color: rgb(0, 0, 0);
+}
+
+.part2 {
+    color: rgb(0, 0, 0);
+    font-family: 'fonthp';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.Título {
+    display: flex;
+}
+
+.filme01 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.filme02 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.filme03 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.filme04 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.filme05 {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.botao{
+    background-color: rgb(0, 0, 0);;
+}
+.botao:hover {
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+.filmes {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 340px;
+    width: 90%; 
+    color: white;
+    margin: auto;
+}
+.filmeslinha2{
+    margin: auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 340px;
+    width: 90%; 
+    color: white;
+}
