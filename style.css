@@ -69,7 +69,7 @@ body.dark{
     background-color: rgb(197, 193, 193);
 }
 body.dark h1{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 body.dark header > #title{
     color: rgb(255, 255, 255);
