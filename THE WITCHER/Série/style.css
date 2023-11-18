@@ -15,7 +15,7 @@ header{
     padding: 0;
     background-color: black;
     color: white;
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     width: 100%;
     position: fixed;
     top: 0;
@@ -54,7 +54,7 @@ main{
     padding: 1px 0px 3px;
 }
 article > h1{
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     text-align: center;
     font-size: 30px;
     color: white;
@@ -79,7 +79,7 @@ article > #Sinopse{
     transition: all 0.3s;
 }
 #texto{
-    font-family:'Thewitcher', 'die nasty'; 
+    font-family:'Die Nasty', 'DieNasty-Regular'; 
     margin-left: 10px;
     background:#000000;
     color:#fff;
@@ -116,7 +116,7 @@ article > #Sinopse{
     background: #222222;
 }
 .elenco > h2{
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
 #part_elenco{
     background-color: black;
@@ -242,33 +242,33 @@ article > #Sinopse{
 
 .person01 {
 
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 30px;
 }
 
 .person02 {
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 30px;
 }
 
 .person03 {
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 15px;
 }
 .person04 {
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 15px;
 }
 .person05 {
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 25px;
 }
 .person06 {
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 20px;
 }
 .person07 {
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 15px;
 }
 .elenco {
@@ -280,7 +280,7 @@ article > #Sinopse{
 }
 .sobre_personagens > h2{
     text-align: center;
-    font-family: 'Thewitcher', 'die nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
 /*#geralt{
     min-width: 300px;
