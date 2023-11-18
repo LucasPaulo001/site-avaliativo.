@@ -36,6 +36,47 @@ body {
     background-size: 100%;
     margin: auto;
 }
+nav > p{
+   margin-right: 100%;
+}
+.trilho{
+    width: 81px;
+    height: 30px;
+    background-color: #535353;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.trilho > .indicador{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: scale(.9);
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    transition: 0.2s;
+}
+.trilho.dark{
+    background-color: rgb(90, 90, 90);
+}
+.trilho.dark .indicador{
+    left: 50px;
+    background-color: white;
+}
+body.dark{
+    background-color: rgb(197, 193, 193);
+}
+body.dark h1{
+    color: black;
+}
+body.dark header > #title{
+    color: rgb(255, 255, 255);
+}
+body.dark header{
+    background-color: #363636;
+}
 .sagas_aventura{
     display: flex;
     overflow-y: hidden;
@@ -71,8 +112,9 @@ body {
     background: #ffffff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #000000;
+    background: #1f1f1f;
 }
+
 #comentario {
     position:relative; 
     font-family: 'Audiowide', cursive;;
