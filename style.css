@@ -19,6 +19,33 @@ header > h1{
     font-family: 'Audiowide', cursive;
     text-align: center;
 }
+.menu_lateral{
+    height: 100%;
+    width: 25px;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(255, 255, 255);
+   background-color: #000000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0.3;
+}
+.menu_lateral > #menu_conteudo{
+    display: flex;
+    
+}
+.menu_lateral:hover{
+    width: 300px;
+    transition: all 0.7s;
+    opacity: 1;
+}
+.botao_expandir > i{
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+
+}
 .sagas{
     max-width: 90%;
     min-width: 300px;
@@ -36,8 +63,19 @@ body {
     background-size: 100%;
     margin: auto;
 }
-nav > p{
-   margin-right: 100%;
+nav > #dl{
+   font-size: 10px;
+   background-color: #000000;
+   width: 100%;
+}
+#dl > p{
+    color: #ffffff;
+    margin-left: 170px;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+    margin-top: 30px;
 }
 .trilho{
     width: 81px;
@@ -46,7 +84,8 @@ nav > p{
     border-radius: 150px;
     position: relative;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 65%;
+
 }
 .trilho > .indicador{
     width: 30px;
