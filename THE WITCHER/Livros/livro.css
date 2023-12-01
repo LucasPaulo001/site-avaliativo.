@@ -105,4 +105,7 @@ a:hover{
     img{
         width: 300px;
     }
+    nav > a{
+        padding: 15px;
+    }
 }

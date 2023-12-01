@@ -125,7 +125,7 @@ section.slider{
     margin: auto;
     width: 210px;
 }
-main{
+main, #main_personagens{
     margin: auto;
     margin-top: 151px;
     width: 95%;

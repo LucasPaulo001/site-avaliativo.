@@ -26,13 +26,13 @@ header > h1{
 }
 nav{
     background-color: rgb(0, 0, 0);
-    padding: 15px;
+    padding: 20px;
     margin: 0;
 }
 nav > a{
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     margin: 0;
     font-size: 25px;
 }
@@ -293,5 +293,7 @@ article > #sinopse{
     article > #sinopse{
         font-size: 16px;
     }
-    
+    nav > a{
+        padding: 15px;
+    }
 }
