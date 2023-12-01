@@ -128,7 +128,7 @@ section.slider{
 main{
     margin: auto;
     margin-top: 151px;
-    width: 90%;
+    width: 95%;
     
 }
 .texto{
@@ -138,7 +138,7 @@ main{
     background-size: cover;
 }
 #introducao{
-    width: 50%;
+    width: 100%;
     margin: auto;
     color: white;
     margin-top: -29px;
@@ -182,8 +182,7 @@ main{
     margin: auto;
     width: 50%;
     margin-top: -5px;
-    padding: 50px;
-    
+    padding: 40px;
 }
 
 .txt{
@@ -193,7 +192,7 @@ main{
     font-size: 20px;
 }
 .txt > h2{
-    text-align: center;
+    margin: auto;
     font-family: 'fontgow';
 }
 #plus{
@@ -202,4 +201,17 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+}
+@media(max-width: 950px){
+    #plus{
+        display: block;
+    }
+    .txt{
+        text-align: right;
+        font-size: 16px;
+    }
+    .quadro > img{
+        margin-left: 40px;
+    }
 }
