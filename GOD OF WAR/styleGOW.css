@@ -53,11 +53,10 @@ section.slider{
 }
 
 .slider-content{
-    width: 100%;
+    width: 400%;
     height: auto;
     display: flex;
     margin-top: 200px;
-    margin: 0;
 }
 .slider-content input, .img-mobile{
    display: none;
