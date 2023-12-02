@@ -205,21 +205,20 @@ main, #main_personagens{
     background-position: center;
     margin-top: 50px;
     padding: 20px;
+    width: 98%;
 }
 @media(max-width: 950px){
     .quadro{
         display: block;
     }
     .txt{
-        width: 100%;
+        width: 98%;
         text-align: left;
         font-size: 16px;
     }
-    .img{
-        margin-left: 40px;
-        height: 400px;
-        width: 500px;
-    }
+   .img > img{
+        height: 315px;
+   }
     nav > a{
         padding: 5px;
         border: #87b1f5 1px solid;
