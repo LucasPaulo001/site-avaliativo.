@@ -1,3 +1,14 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Thewitcher', 'die nasty';
+    src: url('die nasty.otf') format('opentype'), url('Thewitcher-jnOj.ttf') format('truetype'), url('DIENASTY.ttf') format('truetype'), url('DIENASTY.eot') format('opentype'), url('DIENASTY.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body{
     margin: 0%;
     padding: 0%;
