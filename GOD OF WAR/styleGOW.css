@@ -53,11 +53,11 @@ section.slider{
 }
 
 .slider-content{
-    width: 400%;
+    width: 100%;
     height: auto;
     display: flex;
     margin-top: 200px;
-    
+    margin: 0;
 }
 .slider-content input, .img-mobile{
    display: none;
@@ -127,9 +127,7 @@ section.slider{
 main, #main_personagens{
     margin: auto;
     margin-top: 151px;
-    width: 100%;
-    margin: 0;
-    
+    width: 98%;
 }
 .texto{
     /*background-image: linear-gradient(to bottom,#363636, rgb(39, 39, 39), rgb(29, 29, 29), rgb(26, 25, 25), rgb(14, 14, 14));*/
@@ -142,7 +140,7 @@ main, #main_personagens{
     margin: auto;
     color: white;
     margin-top: -29px;
-    font-size: 57px;
+    font-size: 20px;
 }
 #introducao > h1{
     font-family: 'fontgow';
@@ -205,15 +203,18 @@ main, #main_personagens{
     background-position: center;
     margin-top: 50px;
     padding: 20px;
-    width: 100%;
+    width: 95%;
 }
 @media(max-width: 950px){
+    /*body{
+        overflow-x: hidden;
+    }*/
     .quadro{
         display: block;
     }
     .txt{
         width: 95%;
-        text-align: left;
+        margin-left: -2px;
     }
     .txt > p{
         font-size: 16px;
