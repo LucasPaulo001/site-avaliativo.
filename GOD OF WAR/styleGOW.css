@@ -230,4 +230,7 @@ main, #main_personagens{
         padding: 3px;
         
     }
+    #introducao{
+        font-size: 16px;
+    }
 }
