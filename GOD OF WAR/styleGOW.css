@@ -25,13 +25,13 @@ header > h1{
     text-align: center;
 }
 nav{
-    padding: 15px;
+    padding: 20px;
     margin: 0;
 }
 nav > a{
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding: 20px;
     font-size: 20px;
     font-family: 'fontgow';
 }
@@ -179,21 +179,23 @@ main, #main_personagens{
 }
 .quadro{
     width: 100%;
-    margin: auto;
-    width: 50%;
     margin-top: -5px;
-    padding: 40px;
+    display: flex;
+    margin: 0;
 }
-
 .txt{
-    width: 300px;
-    margin: auto;
+    width: 700px;
+    margin-left: 20px;
+    margin-top: auto;
+}
+.txt > p{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 .txt > h2{
-    margin: auto;
+    color: #5174ad;
     font-family: 'fontgow';
+    font-size: 30px;
 }
 #plus{
     background-color: black;
@@ -201,17 +203,30 @@ main, #main_personagens{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
+    margin-top: 50px;
+    padding: 20px;
 }
 @media(max-width: 950px){
-    #plus{
+    .quadro{
         display: block;
     }
     .txt{
-        text-align: right;
+        width: 100%;
+        text-align: left;
         font-size: 16px;
     }
-    .quadro > img{
+    .img{
         margin-left: 40px;
+        height: 400px;
+        width: 500px;
+    }
+    nav > a{
+        padding: 5px;
+        border: #87b1f5 1px solid;
+        padding: 0;
+    }
+    nav{
+        padding: 16px;
+        
     }
 }

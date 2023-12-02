@@ -1,0 +1,120 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #5f5f5f;
+    color: white;
+    box-sizing: border-box;
+}
+header{
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Die Nasty';
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Die Nasty'
+}
+nav{
+    background-color: rgb(0,0,0);
+    padding: 20px;
+    margin: 0;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 25px;
+}
+nav > a:hover{
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+}
+main{
+    background-color: #000000;
+    margin: auto;
+    min-width: 300px;
+    max-width: 98%;
+    margin-top: 185px;
+    border-radius: 5px;
+    box-shadow: black 4px 7px 20px 0px;
+    padding: 1px 0px 3px;
+}
+article > h1{
+    font-family: 'Die Nasty';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 140px;
+}
+#sinopse{
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: justify;   
+    margin-right: 5px;
+    font-size: 20px;
+    background-color: #c5c4c4;
+    margin-top: -34px;
+    width: 100%;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+
+}
+.botao{
+    all: unset;
+    cursor: pointer;
+
+}
+.sobre_thewitcher{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-left: 20%;
+}
+#info_plus{
+    margin: auto;
+}
+button > h2{
+    color: white;
+    text-align: center;
+    font-family: 'Die Nasty';
+}
+a{
+    text-decoration: none;
+}
+.sobre_thewitcher2{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-left: 18%;
+}
+@media(max-width: 1000px){
+    .sobre_thewitcher{
+        display: block;
+        margin-left: 10%;
+    }
+    .sobre_thewitcher2{
+        display: block;
+    }
+    #mundo_aberto{
+        margin-left: 35px;
+    }
+}
+
+
+
+
+
