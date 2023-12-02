@@ -13,7 +13,7 @@ header{
     background-color: #5174ad;
     padding: 0px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-image: url(imagens/plano\ de\ fundo\ header.jpg);
@@ -34,6 +34,8 @@ nav > a{
     padding: 20px;
     font-size: 20px;
     font-family: 'fontgow';
+    border-left: #87b1f5 1px solid;
+    border-right: #87b1f5 1px solid;
 }
 nav > a:hover{
     background-color: silver;
@@ -53,7 +55,7 @@ section.slider{
     width: 400%;
     height: auto;
     display: flex;
-    margin-top: 155px;
+    margin-top: 200px;
     
 }
 .slider-content input, .img-mobile{
@@ -62,7 +64,6 @@ section.slider{
 .slide-box{
     width: 25%;
     height: auto;
-    position: relative;
     text-align: center;
     transition: 1s;
 }
@@ -121,10 +122,7 @@ section.slider{
     }
    
 }
-#title{
-    margin: auto;
-    width: 210px;
-}
+
 main, #main_personagens{
     margin: auto;
     margin-top: 151px;
@@ -214,18 +212,19 @@ main, #main_personagens{
     .txt{
         width: 98%;
         text-align: left;
+    }
+    .txt > p{
         font-size: 16px;
     }
    .img > img{
-        height: 315px;
+        height: 290px;
    }
     nav > a{
-        padding: 5px;
-        border: #87b1f5 1px solid;
-        padding: 0;
+        padding: 3px;
+        border-left: #87b1f5 1px solid;
     }
     nav{
-        padding: 16px;
+        padding: 3px;
         
     }
 }
