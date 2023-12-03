@@ -122,8 +122,22 @@ section.slider{
     }
    
 }
-
-main, #main_personagens{
+.trechos{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+#txt{
+    font-family: 'fontgow';
+    color: #87b1f5;
+    text-align: center;
+    margin-top: 45px;
+}
+.trecho01:not(:first-child){
+    margin-left: 30px;
+}
+main{
     margin: auto;
     margin-top: 151px;
     width: 98%;
@@ -233,3 +247,68 @@ main, #main_personagens{
         font-size: 16px;
     }
 }
+@media(max-width: 1348px){
+    .trecho01 > img{
+        height: 300px;
+        width: 390px;
+    }
+}
+@media(max-width: 1329px){
+    .trecho01 > img{
+        height: 250px;
+        width: 300px;
+    }
+}
+@media(max-width: 1030px){
+    .trecho01 > img{
+        height: 200px;
+        width: 250px;
+    }
+}
+@media(max-width: 875px){
+    .trechos{
+        display: inline-block;
+    }
+    .trecho01:first-child{
+        margin-left: 30px;
+    }
+    .trecho01 > img{
+        width: 100%;
+        height: 20%;
+    }
+    .trecho01:not(:first-child){
+        margin-top: 30px;
+    }
+}
+/*Parte de personagens*/
+.sobre_personagens{
+    display: flex;
+}
+.sobre_personagens:not(:first-child){
+    margin-top: 35px;
+}
+.txt_persons{
+    color: white;
+    width: 98%;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.txt_persons > h1{
+    font-family: 'fontgow';
+    color: #87b1f5;
+}
+#main_personagens{
+    margin: auto;
+    margin-top: 200px;
+    width: 98%;
+}
+@media(max-width: 695px){
+    .sobre_personagens{
+        display: block;
+    }
+    .txt_persons{
+        width: 95%;
+        margin-left: 3px;
+    }
+}
+
