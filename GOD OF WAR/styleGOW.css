@@ -264,7 +264,8 @@ main{
 @media(max-width: 1030px){
     .trecho01 > img{
         height: 200px;
-        width: 250px;
+        width: 290px;
+        margin-left: -40px;
     }
 }
 @media(max-width: 875px){
@@ -272,8 +273,8 @@ main{
         display: none;
     }
     .trecho01 > img{
-        height: 350px;
-        width: 400px;
+        height: 310px;
+        width: 340px;
     }
 }
 /*Parte de personagens*/
@@ -318,6 +319,7 @@ h1{
 @media(max-width: 920px){
     #img_guia > img{
         height: 280px;
+        width: 390px;
     }
     #cosplay{
         display: block;
