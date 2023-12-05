@@ -1,10 +1,6 @@
 body{
-    margin: 0%;
-    padding: 0%;
     background-color: #5f5f5f;
     color: white;
-    box-sizing: border-box;
-    height: 100%;
 }
 header{
     padding: 0;
@@ -46,6 +42,7 @@ nav > a:hover{
     background-color: black;
     width: 98%;
     margin-top: 180px;
+    
 }
 article > h1{
     font-family: 'Die Nasty';
@@ -246,6 +243,9 @@ a{
     .info_persons{
         display: block;
     }
+    .personagens > img{
+        width: 100%;
+    }
 }
 @media(max-width: 700px){
     nav > a{
@@ -266,6 +266,7 @@ a{
     .txt_persons{
         font-size: 16px;
     }
+    
 
 }
 
