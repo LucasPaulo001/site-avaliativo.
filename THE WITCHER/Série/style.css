@@ -19,7 +19,6 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    
 }
 header > h1{
     text-align: center;
@@ -35,6 +34,9 @@ nav > a{
     padding: 20px;
     margin: 0;
     font-size: 25px;
+    border-bottom: 2px white solid;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
 }
 a:hover{
     background-color: silver;
@@ -104,7 +106,7 @@ article > #sinopse{
     overflow-x: scroll;
     height: 340px;
     width: 60%; 
-    color: white;  
+    color: white; 
 }
 ::-webkit-scrollbar-track {
     background-color: #535353;

@@ -31,6 +31,9 @@ nav > a{
     padding: 20px;
     margin: 0;
     font-size: 25px;
+    border-bottom: 2px white solid;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
 }
 nav > a:hover{
     background-color: silver;
@@ -99,7 +102,7 @@ a{
     margin-left: 50px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    
+    width: 60%;
 }
 .img{
     border-right: 2px white solid;
@@ -146,6 +149,9 @@ a{
     background-color: white;
 }
 /*Parte bestiário*/
+#body_bestiario{
+    background-color: black;
+}
 .bestiario{
     display: flex;
     border-bottom: rgb(0, 0, 0) 20px solid;
@@ -233,6 +239,12 @@ a{
     }
     .img{
         border-right: 2px rgb(0, 0, 0) solid;
+    }
+    .botao, .botao2, .botao3{
+        width: 20px;
+    }
+    .info_persons{
+        display: block;
     }
 }
 @media(max-width: 700px){

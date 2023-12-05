@@ -32,6 +32,9 @@ nav > a{
     padding: 15px;
     margin: 0;
     font-size: 35px;
+    border-bottom: 2px white solid;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
 }
 a:hover{
     background-color: silver;
@@ -93,7 +96,7 @@ body {
 .txt{
     color: white;
     margin-left: 35px;
-    width: 60%;
+    width: 100%;
 }
 .txt > h1{
     font-family: 'fonthp';
@@ -142,9 +145,14 @@ body {
     }
     .txt{
         width: 90%;
+        margin-left: 3px;
     }
     .img > img{
         width: 250px; 
+    }
+    nav > a{
+        padding: 15px;
+        font-size: 16px;
     }
 }
 
