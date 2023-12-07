@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: 'fonttlou';
     src: url(font/ACCompacta/AC-Compacta.ttf) format('truetype');
@@ -47,9 +49,9 @@ nav{
     background-position: center;*/
     padding: 5px;
 }
-main{
+.main_tlou{
     width: 100%;
-    background-color: #2D2D2B;
+    background-color: #000000;
 }
 section.slider{
     margin: 0 auto;
@@ -126,4 +128,37 @@ section.slider{
     .nav-auto, .nav-manual{
         margin-top: 60%;
     }
+}
+/*Parte introdução tlou*/
+
+#introdução_tlou{
+    margin-top: 95px;
+    color: rgb(255, 255, 255);
+    background-image: url(imagens_tlou/fundo_introducao.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    text-indent: 10px;
+}
+#introdução_tlou > h1{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+#plataformas > h1{
+    font-size: 35px;
+    color: white;
+}
+#plataformas{
+    background-image: url(imagens_tlou/barra\ playstation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+#trailer h1{
+    color: white;
+}
+#trailer{
+    margin-top: 35px;
 }

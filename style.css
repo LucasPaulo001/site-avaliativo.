@@ -9,29 +9,105 @@
     font-style: normal;
 }
 
-header{
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
     background-color: black;
-    padding: 5px;
 }
-header > h1{
-    color: white;
-    font-size: 50px;
-    font-family: 'Audiowide', cursive;
-    text-align: center;
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
 }
+.slider-content input, .img-mobile{
+    display: none;
+ }
+ .slide-box{
+     width: 25%;
+     height: auto;
+     text-align: center;
+     transition: 1s;
+ }
+ .slide-box img{
+     width: 100%;
+ }
+ .nav-manual, .nav-auto{
+     position: absolute;
+     width: 100%;
+     margin-top: 39%;
+     display: flex;
+     justify-content: center;
+ }
+ .nav-manual .manual-btn, .nav-auto div{
+     border: 1px solid rgb(255, 255, 255);
+     padding: 10px;
+     border-radius: 50%;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+ .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+     margin-right: 10px;
+ }
+ .nav-manual .manual-btn:hover{
+     background-color: rgb(255, 255, 255);
+ }
+ #radio1:checked ~ .nav-auto .auto-btn1{
+     background-color: rgb(255, 255, 255);
+ }
+ #radio2:checked ~ .nav-auto .auto-btn2{
+     background-color: rgb(255, 255, 255);
+ }
+ #radio3:checked ~ .nav-auto .auto-btn3{
+     background-color: rgb(255, 255, 255);
+ }
+ #radio4:checked ~ .nav-auto .auto-btn4{
+     background-color: rgb(255, 255, 255);
+ }
+ #radio1:checked ~ .primeiro{
+     margin-left: 0%;
+ }
+ #radio2:checked ~ .primeiro{
+     margin-left: -25%;
+ }
+ #radio3:checked ~ .primeiro{
+     margin-left: -50%;
+ }
+ #radio4:checked ~ .primeiro{
+     margin-left: -75%;
+ }
+
 .sagas{
     max-width: 90%;
     min-width: 300px;
     margin: auto;
+    margin-top: 45px;
 }
 h1{
     color: white;
     font-family: 'Audiowide', cursive;
 }
+header > h1{
+    text-align: center;
+}
 
+nav > a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+}
 body {
     
-    background-color: rgb(43, 43, 43);
+    background-color: #00050D;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -40,13 +116,13 @@ body {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 257px;
+    height: 315px;
 }
 .sagas_jogos{
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 257px;
+    height: 315px;
 }
 .botao_saga{
     all: unset;
@@ -64,14 +140,14 @@ body {
     margin-top: 10px;
 }
 ::-webkit-scrollbar-track {
-    background-color: #535353;
+    background-color: #1d1d1d;
 }
 ::-webkit-scrollbar {
     width: 6px;
     background: #ffffff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #000000;
+    background: #ffffff;
 }
 #comentario {
     position:relative; 
@@ -95,4 +171,11 @@ p {
     color: white;
     font-family: 'Audiowide', cursive;
     text-align: center;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+}
+img{
+    margin-top: 50px;
 }

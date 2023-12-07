@@ -91,6 +91,9 @@ article > #sinopse{
     padding: 0;
     margin: 0;
 }
+#sinopse{
+    text-indent: 15px;
+}
 #botao_netflix:hover #texto{
     opacity: 1;
 }
@@ -285,13 +288,60 @@ article > #sinopse{
     text-align: center;
     font-family: 'Die Nasty', 'DieNasty-Regular';
 }
-#geralt, #yennefer > p{
-    font-size: 20px;
+.personagem{
+    display: flex;
+}
+.personagem:not(:first-child){
+    margin-top: 35px;
+}
+.sobre_person{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-indent: 10px;
+}
+.sobre_person > h2{
+    font-family: 'Die Nasty', 'DieNasty-Regular';
+}
+@media(max-width: 922px){
+    .personagem{
+        display: block;
+    }
+    .img{
+        margin: auto;
+        width: 500px;
+    }
+    .imgy{
+        margin: auto;
+        width: 530px;
+    }
+}
+@media(max-width: 518px){
+    .img > img{
+        height: 300px;
+    }
+    .imgy > img{
+        height: 300px;
+        width: 370px;
+    }
+}
+@media(max-width: 400px){
+    .img > img{
+        height: 200px;
+    }
+    .imgy > img{
+        height: 200px;
+        width: 250px;
+    }
+}
+@media(max-width: 400px){
+    .imgy > img{
+        height: 300px;
+        width: px;
+    }
+
 }
 @media(max-width:700px){
-    #geralt, #yennefer > p{
-        font-size: 16px;
-    }
     article > #sinopse{
         font-size: 16px;
     }

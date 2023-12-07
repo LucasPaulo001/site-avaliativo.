@@ -263,8 +263,21 @@ a{
     .info_geralt > img{
         margin-left: 40px;
     }
+    .info_ciri > img{
+        margin-left: 40px;
+    }
+    .info_yennefer > img{
+        margin-left: 40px;
+    }
+    .info_vesemir > img{
+        margin-left: 40px;
+    }
+    .info_triss > img{
+        margin-left: 40px;
+    }
     .txt_persons{
         font-size: 16px;
+        text-align: center;
     }
 }
 @media(max-width: 682px){
