@@ -309,20 +309,21 @@ article > #sinopse{
     }
     .img{
         margin: auto;
-        width: 500px;
+        width: 100%;
     }
     .imgy{
         margin: auto;
-        width: 530px;
+        width: 100%;
     }
 }
 @media(max-width: 518px){
     .img > img{
         height: 300px;
+        width: 100%;
     }
     .imgy > img{
         height: 300px;
-        width: 370px;
+        width: 100%;
     }
 }
 @media(max-width: 400px){
@@ -331,13 +332,13 @@ article > #sinopse{
     }
     .imgy > img{
         height: 200px;
-        width: 250px;
+        width: 100%;
     }
 }
 @media(max-width: 400px){
     .imgy > img{
         height: 300px;
-        width: px;
+        width: 100%;
     }
 
 }
