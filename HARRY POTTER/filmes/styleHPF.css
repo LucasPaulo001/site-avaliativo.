@@ -102,6 +102,27 @@ body {
     font-family: 'fonthp';
     font-size: 35px;
 }
+#title2{
+    color: #D4B606;
+}
+#title3{
+    color: #BC8739;
+}
+#title4{
+    color: #beceff;
+}
+#title5{
+    color: #80E0D4;
+}
+#title6{
+    color: #F9D565;
+}
+#title7{
+    color: #6FA6A6;
+}
+#title8{
+    color: #A0AA85;
+}
 .bonus{
     color: white;
     margin-left: -20px;
