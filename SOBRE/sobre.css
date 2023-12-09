@@ -60,7 +60,7 @@ div:not(:first-child){
     margin: auto;
 }
 #dl{
-    background-color: #0D1117;
+    background-image: linear-gradient(to bottom, #000000, #000208, #000000, #000000, #010208, #050514, #030b35 );
     border-radius: 10px;
     padding: 0 0 3px 0;
     height: 570px;
@@ -69,13 +69,13 @@ div:not(:first-child){
     width: 180px;
 }
 #lp{
-    background-color: #0D1117;
+    background-image: linear-gradient(to bottom, #000000, #000208, #000000, #000000, #010208, #050514, #030b35 );
     border-radius: 10px;
     padding: 0 0 3px 0;
     height: 570px;
 }
 #lt{
-    background-color: #0D1117;
+    background-image: linear-gradient(to bottom, #000000, #000208, #000000, #000000, #010208, #050514, #030b35 );
     border-radius: 10px;
     padding: 0 0 3px 0;
     height: 570px;
@@ -96,7 +96,7 @@ nav > a:hover{
 main{
     margin: auto;
     width: 98%;
-    background-color: #161B22;
+    background-color: #0f1216;
     margin-top: 30px;
 }
 @media(max-width: 450px){
@@ -109,6 +109,7 @@ main{
         display: block;
     }
     #title{
+        width: 200px;
         margin: auto;
     }
     #img_fron{
