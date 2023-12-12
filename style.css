@@ -86,12 +86,12 @@ section.slider{
     margin: auto;
     margin-top: 45px;
 }
-h1{
+h2, h1{
     color: white;
     font-family: 'Audiowide', cursive;
 }
 header{
-    background-image: linear-gradient(to left, #02050A, #0A0813, #0A0C1B, #0d1025, #171f5c);
+    background-image: linear-gradient(to right, #02050A, #0A0813, #0A0C1B, #0d1025, #171f5c);
 }
 header > h1{
     text-align: center;
@@ -108,7 +108,6 @@ nav{
     left: 0;
     margin-left: auto;
 }
-
 body {
     
     background-color: #00050D;
@@ -142,7 +141,6 @@ body {
     transition: all 0.2s;
     cursor: pointer;
     margin-top: 10px;
-    box-shadow: #4a4c5c 1px;
 }
 ::-webkit-scrollbar-track {
     background-color: #1d1d1d;
@@ -202,6 +200,13 @@ footer a:hover{
 img{
     margin-top: 50px;
 }
+#logo{
+    width: 250px;
+    /*border: 1px white solid;*/
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #171f5c;
+}
 @media screen and (max-width: 900px){
     .img-desktop{
         display: none;
@@ -212,5 +217,10 @@ img{
 
     .nav-auto, .nav-manual{
         margin-top: 60%;
+    }
+}
+@media(max-width: 475px){
+    h1{
+        font-size: 16px;
     }
 }

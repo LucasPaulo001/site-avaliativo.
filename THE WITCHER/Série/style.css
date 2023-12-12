@@ -129,6 +129,7 @@ article > #sinopse{
     background-color: black;
     background-image: url(imagens/plano\ de\ fundo\ série.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 99.5%;
     width: 100%;
     min-width: 300px;

@@ -40,6 +40,18 @@ nav > a:hover{
     border-radius: 5px;
     
 }
+@media(max-width: 490px){
+    nav > a{
+        padding: 5px;
+        font-size: 17px;
+    }
+}
+@media(max-width: 428px){
+    nav > a{
+        padding: 5px;
+        font-size: 10px;
+    }
+}
 
 article > h1{
     text-align: center;

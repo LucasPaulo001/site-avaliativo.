@@ -19,6 +19,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    max-width: 100%;
+    min-width: 320px;
 }
 nav > a{
     text-decoration: none;
@@ -48,6 +50,8 @@ nav{
     background-size: cover;
     background-position: center;*/
     padding: 5px;
+    max-width: 100%;
+    min-width: 320px;
 }
 .main_tlou{
     width: 100%;
@@ -143,7 +147,8 @@ section.slider{
 }
 #introdução_tlou > h1{
     font-size: 35px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: silver;
 }
 #plataformas > h1{
     font-size: 35px;
@@ -161,4 +166,109 @@ section.slider{
 }
 #trailer{
     margin-top: 35px;
+}
+/*Parte plus*/
+.main_tlou_plus{
+    max-width: 98%;
+    min-width: 300px;
+    margin: auto;
+}
+#sinopse_tlou{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-indent: 5px;
+    color: white;
+    font-size: 18px;
+    border: 1px white solid;
+    margin-top: 20px;
+}
+.elenco{
+    color: white;
+    overflow-y: hidden;
+    overflow-x: 98%;
+    width: 60%;
+    height: 370px;
+    
+}
+.elenco > h2{
+    position: sticky;
+    left: 0;
+    font-family: 'fonttlou';
+    font-size: 30px;
+}
+#triler{
+    color: white;
+}
+.images{
+    display: flex;
+}
+.image01:not(:first-child){
+    margin-left: 20px;
+}
+.image01 > .person01{
+    margin-left: 40px;
+    font-family: 'fonttlou';
+    font-size: 20px;
+}
+.image01 > .nome01{
+    margin-left: 30px;
+}
+.part_elenco{
+    background-image: url(imagens_tlou/the-last-of-us-serie.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 35px;
+    display: flex;
+}
+
+#plataforma{
+    height: 200px;
+    width: 129px;
+    margin: auto;
+}
+.btn_plataforma > p{
+    color: white;
+    font-size: 18px;
+}
+.btn_plataforma{
+    all: unset;
+    margin: 0;
+    margin-left: 50%;
+    margin: auto;
+}
+.btn_plataforma:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.btn_plataforma img:hover{
+    border: 4px purple solid;
+}
+@media(max-width: 583px){
+    .elenco{
+        width: 98%;
+    }
+    .part_elenco{
+        display: block;
+        height: 565px;
+    }
+    #plataforma > p{
+        font-size: 19px;
+        text-align: center;
+    }
+    #plataforma{
+        height: 200px;
+        width: 129px;
+        margin: auto;
+    }
+    .btn_plataforma:hover{
+        transform: scale(0.9);
+        transition: 0.3s;
+    }
+    .btn_plataforma{
+        margin: 0;
+        margin-left: 50%;
+        margin: auto;
+    }
 }

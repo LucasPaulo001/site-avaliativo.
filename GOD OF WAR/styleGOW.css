@@ -26,18 +26,30 @@ header > h1{
     text-align: center;
 }
 nav{
-    padding: 20px;
+    padding: 15px;
     margin: 0;
 }
 nav > a{
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
     font-family: 'fontgow';
     border-left: #87b1f5 1px solid;
     border-right: #87b1f5 1px solid;
     border-bottom: #87b1f5 3px solid;
+}
+@media(max-width: 490px){
+    nav > a{
+        padding: 5px;
+        font-size: 17px;
+    }
+}
+@media(max-width: 428px){
+    nav > a{
+        padding: 5px;
+        font-size: 10px;
+    }
 }
 nav > a:hover{
     background-color: silver;
@@ -123,6 +135,7 @@ section.slider{
     }
    
 }
+
 .trechos{
     display: flex;
     width: 100%;
@@ -141,7 +154,8 @@ section.slider{
 main{
     margin: auto;
     margin-top: 151px;
-    width: 98%;
+    min-width: 300px;
+    max-width: 98%;
 }
 .texto{
     /*background-image: linear-gradient(to bottom,#363636, rgb(39, 39, 39), rgb(29, 29, 29), rgb(26, 25, 25), rgb(14, 14, 14));*/

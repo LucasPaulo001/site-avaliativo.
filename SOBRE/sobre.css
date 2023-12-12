@@ -96,7 +96,7 @@ nav > a:hover{
 main{
     margin: auto;
     width: 98%;
-    background-color: #0f1216;
+    background-color: #081427;
     margin-top: 30px;
 }
 @media(max-width: 450px){
@@ -109,7 +109,6 @@ main{
         display: block;
     }
     #title{
-        width: 200px;
         margin: auto;
     }
     #img_fron{
