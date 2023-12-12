@@ -54,7 +54,8 @@ nav{
     min-width: 320px;
 }
 .main_tlou{
-    width: 100%;
+    min-width: 300px;
+    max-width: 98%;
     background-color: #000000;
 }
 section.slider{
@@ -138,34 +139,50 @@ section.slider{
 #introdução_tlou{
     margin-top: 95px;
     color: rgb(255, 255, 255);
-    background-image: url(imagens_tlou/fundo_introducao.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000000;
     font-size: 20px;
     text-indent: 10px;
+    border: 1px white solid;
+    border-radius: 5px;
 }
 #introdução_tlou > h1{
     font-size: 35px;
-    color: rgb(0, 0, 0);
-    background-color: silver;
-}
-#plataformas > h1{
-    font-size: 35px;
-    color: white;
-}
-#plataformas{
-    background-image: url(imagens_tlou/barra\ playstation.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 100px;
+    color: rgb(255, 255, 255);
 }
 #trailer h1{
     color: white;
 }
 #trailer{
     margin-top: 35px;
+}
+.cena{
+    display: flex;
+    margin-top: 20px;
+}
+.cena > .txt_cena{
+    color: white;
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cena:not(:first-child){
+    margin-top: 35px;
+}
+@media(max-width: 680px){
+    .cena{
+        display: block;
+    }
+    .cena > .txt_cena{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media(max-width: 455px){
+    .img_cena > img{
+        width: 100%;
+    }
+
 }
 /*Parte plus*/
 .main_tlou_plus{
@@ -198,6 +215,8 @@ section.slider{
 }
 #triler{
     color: white;
+    margin: auto;
+    width: 500px;
 }
 .images{
     display: flex;
@@ -245,6 +264,16 @@ section.slider{
 .btn_plataforma img:hover{
     border: 4px purple solid;
 }
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.541);
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(51, 51, 51);
+}
 @media(max-width: 583px){
     .elenco{
         width: 98%;
@@ -269,6 +298,40 @@ section.slider{
     .btn_plataforma{
         margin: 0;
         margin-left: 50%;
+        margin: auto;
+    }
+    
+}
+/*Parte personagens*/
+.main_personagens_tlou{
+    min-width: 350px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.personagem{
+    display: flex;
+    margin: auto;
+}
+.personagem > .txt_personagem{
+    color: white;
+    margin-left: 30px;
+    width: 100%;
+    text-indent: 5px;
+    font-size: 20px;
+}
+.personagem:not(:first-child){
+    margin-top: 25px;
+}
+@media(max-width: 803px){
+    .personagem{
+        display: block;
+    }
+    .personagem > .txt_personagem{
+        margin-left: 0;
+    }
+    .img{
+        width: 280px;
         margin: auto;
     }
 }
