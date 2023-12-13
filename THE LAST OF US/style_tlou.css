@@ -159,6 +159,12 @@ section.slider{
     display: flex;
     margin-top: 20px;
 }
+.img_cenas{
+    background-image: url(imagens_tlou/background_cena.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .cena > .txt_cena{
     color: white;
     width: 98%;
