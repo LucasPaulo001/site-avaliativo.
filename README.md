@@ -10,5 +10,5 @@
 ![Navegando pela saga - Google Chrome 15_12_2023 20_25_31](https://github.com/LucasPaulo001/site-avaliativo./assets/99549724/133cb970-7f25-46b4-91d5-1533773ef10e)
 
 ## 📁 Acessando o projeto
-<p>Você pode acessar o projeto pelo ![link hospedado no guithub]</p>
+<p>Você pode acessar o projeto pelo [link hospedado no guithub](https://lucaspaulo001.github.io/site-avaliativo./)</p>
 
