@@ -66,7 +66,7 @@ div:not(:first-child){
     height: 570px;
 }
 .img{
-    width: 180px;
+    width: 200px;
 }
 #lp{
     background-image: linear-gradient(to bottom, #000000, #000208, #000000, #000000, #010208, #050514, #030b35 );
@@ -111,7 +111,7 @@ main{
     #title{
         margin: auto;
     }
-    #img_fron{
+    #img_front{
         margin: auto;
     }
 }

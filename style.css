@@ -119,13 +119,13 @@ body {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 315px;
+    height: 450px;
 }
 .sagas_jogos{
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 315px;
+    height: 450px;
 }
 .botao_saga{
     all: unset;

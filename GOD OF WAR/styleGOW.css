@@ -7,14 +7,14 @@
     font-style: normal;
 }
 body{
-    background-color: #0e1b25;
+    background-color: #000000;
     overflow-x: hidden;
 }
 header{
-    background-color: #0e1b25;
     padding: 0px;
-    width: 100%;
-    position: fixed;
+    min-width: 320px;
+    max-width: 100%;
+    right: 0;
     top: 0;
     left: 0;
     background-image: url(imagens/plano\ de\ fundo\ header.jpg);
@@ -28,6 +28,11 @@ header > h1{
 nav{
     padding: 15px;
     margin: 0;
+    position: sticky;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: #0e1b25;
 }
 nav > a{
     text-decoration: none;
@@ -69,7 +74,7 @@ section.slider{
     width: 400%;
     height: auto;
     display: flex;
-    margin-top: 200px;
+    margin-top: 90px;
 }
 .slider-content input, .img-mobile{
    display: none;
@@ -151,11 +156,12 @@ section.slider{
 .trecho01{
     margin: auto;
 }
-main{
-    margin: auto;
-    margin-top: 151px;
-    min-width: 300px;
-    max-width: 98%;
+main{ 
+    margin: 0 auto;
+    margin-top: 90px;
+    min-width: 400px;
+    max-width: 100%;
+    margin-left: auto;
 }
 .texto{
     /*background-image: linear-gradient(to bottom,#363636, rgb(39, 39, 39), rgb(29, 29, 29), rgb(26, 25, 25), rgb(14, 14, 14));*/
@@ -164,7 +170,8 @@ main{
     background-size: cover;
 }
 #introducao{
-    width: 100%;
+    max-width: 100%;
+    min-width: 350px;
     margin: auto;
     color: white;
     margin-top: -29px;
@@ -235,14 +242,12 @@ main{
 }
 
 @media(max-width: 950px){
-    /*body{
-        overflow-x: hidden;
-    }*/
+    
     .quadro{
         display: block;
     }
     .txt{
-        width: 95%;
+        width: 100%;
         margin-left: -2px;
     }
     .txt > p{
@@ -292,6 +297,9 @@ main{
     }
 }
 /*Parte de personagens*/
+.body_persons{
+    background-color: #0e1b25;
+}
 .sobre_personagens{
     display: flex;
 }
@@ -310,7 +318,7 @@ main{
 }
 #main_personagens{
     margin: auto;
-    margin-top: 200px;
+    margin-top: 90px;
     width: 98%;
 }
 @media(max-width: 695px){
@@ -372,10 +380,13 @@ h1{
     font-weight: normal;
 }
 /*Parte Guia de combate*/
+.guia{
+    background-color: #0e1b25;
+}
 #main_guia_combate{
     margin: auto;
     width: 98%;
-    margin-top: 190px;
+    margin-top: 90px;
 }
 #armas_basicas{
     text-align: center;

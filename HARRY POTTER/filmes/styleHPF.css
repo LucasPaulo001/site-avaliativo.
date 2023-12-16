@@ -8,23 +8,31 @@
 }
 
 header {
-    padding: 0;
+    padding: 10px;
     background-color: black;
     color: white;
-    font-family: 'fonthp';
-    width: 100%;
-    position: fixed;
+    max-width: 100%;
+    min-width: 470px;
     top: 0;
     left: 0;
+    right: 0;
 }
 header > h1{
     text-align: center;
     font-size: 40px;
+    font-family: 'fonthp';
 }
 nav{
     background-color: rgb(0, 0, 0);
-    padding: 15px;
+    padding: 20px;
     margin: 0;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-family: 'fonthp';
+    min-width: 450px;
+    max-width: 100%;
 }
 nav > a{
     color: white;
@@ -47,7 +55,7 @@ a:hover{
     margin: auto;
     min-width: 300px;
     max-width: 98%;
-    margin-top: 185px;
+    margin-top: 60px;
     border-radius: 5px;
     box-shadow: black 4px 7px 20px 0px;
     padding: 1px 0px 3px;  
@@ -176,4 +184,141 @@ body {
         font-size: 20px;
     }
 }
+/*Jogo*/
+.main_jogo{
+    min-width: 480px;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 60px;
+    margin: auto;
+}
+.trailer > h1{
+    color: white;
+    text-align: center;
+    font-family: 'fonthp';
+    font-size: 50px;
+}
+.sobre{
+    margin-top: 60px;
+    color: white;
+    background-color: #0000007c;
+    width: 350px;
+}
+.sobre:not(:first-child){
+    margin-left: 20px;
+}
+.txt_legacy{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    
+}
+.introducao{
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#introducao{
+    font-family: 'fonthp';
+}
+.qualquer{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 60px;
+    margin: 0;
+    margin: auto;
+}
+.plus{
+    background-image: url(../imagens/hogwarts-legacy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+.btn_legacy{
+    height: 50px;
+    border: 3px orangered solid;
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    width: 350px;
+    margin-top: 60px;
+    
+}
+.button{
+    margin: auto;
+    width: 300px;
+
+}
+.btn_legacy:hover{
+    opacity: 5;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+@media(max-width:700px){
+    .qualquer{
+        display: block;
+        margin: 0;
+        width: 380px;
+        margin: auto;
+    }
+    .img_legacy{
+        width: 350px;
+        margin: 0;
+    }
+    .img_legacy > img{
+        width: 100%;
+    }
+    .txt_legacy{
+        width: 100%;
+    }
+    .sobre{
+        width: 350px;
+        margin: auto;
+    }
+    .sobre:first-child{
+        margin-left: 20px;
+    }
+    .plus{
+        height: 1550px;
+        width: 100%;
+    }
+    .btn_legacy{
+        margin-top: 20px;
+    }
+    .btn_legacy{
+        width: 300px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media(max-width:1700px){
+    .img_legacy{
+        width: 450px;
+    }
+}
+@media(max-width:1024px){
+    .qualquer{
+        display: block;
+        margin: 0;
+        width: 380px;
+        margin: auto;
+        
+    }
+    .plus{
+        height: 1650px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    .sobre{
+        width: 350px;
+    }
+   
+}
+
 

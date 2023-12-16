@@ -16,24 +16,30 @@ h2{
 }
 
 header{
-    padding: 0;
+    padding: 10px;
     background-color: black;
     color: white;
-    font-family: 'Die Nasty', 'DieNasty-Regular';
-    width: 100%;
-    position: fixed;
+    max-width: 100%;
+    min-width: 320px;
     top: 0;
     left: 0;
+    right: 0;
     
 }
 header > h1{
     text-align: center;
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
 
 nav{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     margin: 0;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
 nav > a{
     color: white;
@@ -51,7 +57,7 @@ main{
     margin: auto;
     min-width: 300px;
     max-width: 98%;
-    margin-top: 180px;
+    margin-top: 60px;
     padding: 1px 0px 3px;
 }
 h1{
@@ -102,16 +108,34 @@ a:hover{
 ::-webkit-scrollbar-thumb {
     background: #222222;
 }
+.botao{
+    transform: scale(1.4);
+    transition:  0.3s;
+    all: unset; 
+    cursor: pointer;
+}
+.comprar > h3{
+    font-family: 'Die Nasty', 'DieNasty-Regular';
+}
+.botao:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+    
+}
 @media(max-width: 700px){
     .livro{
         flex-direction: column;
     }
     img{
-        width: 300px;
+        width: 250px;
     }
     nav > a{
         padding: 15px;
         font-size: 16px;
+    }
+    .img_livro{
+        width: 250px;
+        margin: auto;
     }
 }
 @media(max-width: 450px){

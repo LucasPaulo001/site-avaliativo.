@@ -144,6 +144,7 @@ section.slider{
     text-indent: 10px;
     border: 1px white solid;
     border-radius: 5px;
+    
 }
 #introdução_tlou > h1{
     font-size: 35px;
@@ -158,6 +159,7 @@ section.slider{
 .cena{
     display: flex;
     margin-top: 20px;
+    
 }
 .img_cenas{
     background-image: url(imagens_tlou/background_cena.jpg);
